@@ -1,23 +1,22 @@
 # Examples
 
-In this repository I upload various programming examples where I attempt to
-answer my questions using minimal working examples. I test programming languages
-features, data structures, benchmarks, cache locality etc. In general, various
-minimal working examples about programming are kept here.
+In this repository I develop and maintain minimal working examples for various
+programming languages. These examples are library independent meaning that they
+test features that are native to each programming language.
 
 ## Repository structure
 
-├── `c-cpp/` Examples about C/C++\
-│  ├── `c/` Examples about C\
-│  │  ├── `cache-misses/` Cache locality example\
-│  │  │  ├── `README.md`\
-│  │  │  ├── `create-cache-misses.c`\
-│  │  │  └── `less-cache-misses.c`\
-│  │  └── `memleak.c`\
-│  ├── `cpp/` Examples about C\
-│  │  ├── `malloc.cpp`\
-│  │  └── `min.cpp`\
-│  └── `memcmp.cxx` Examples C/C++ agnostic\
-├── `bash/` Examples about bash\
-│  └── `print-over-previous-output.sh`\
-└── `README.md` This file
+```
+  ./              Root of repository
+├──   c-cpp/      Examples that are C and C++ agnostic (apply to both)
+├──   cpp/        Examples for C++
+├──   c/          Examples for C
+├──   bash/       Examples for Bash
+└──   README.md   This file
+```
+
+## Motivation
+
+Frequently, I try to answer my questions by writting small related programs.
+It would be deligent for me to maintain these examples so I can come back to
+them and revisit a specific idea that an example illustrates.
